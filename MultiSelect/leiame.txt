@@ -1,0 +1,14 @@
+Componente voltado para ter uma dbcombo com opção de multiseleção.
+
+Instalação
+
+1 - app/lib/widget/MultiSelect.class.php
+2 - app/lib/include/multiselect/jquery.multiselect.js
+3 - app/lib/include/multiselect/jquery.multiselect.css
+4 - Incluir no arquivo libraries.html do layout usado.
+    <script src="app/lib/include/multiselect/jquery.multiselect.js?appver=500" type="text/javascript"></script>
+    <link href="app/lib/include/multiselect/jquery.multiselect.css?appver=500" rel="stylesheet" type="text/css" media="screen">	
+
+Uso
+Mesmas propriedades de TDBCombo.
+Retorno do componente e um array.
