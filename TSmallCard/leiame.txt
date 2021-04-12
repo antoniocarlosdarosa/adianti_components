@@ -1,0 +1,8 @@
+Componente voltado para criar um card de informação.
+
+Instalação
+
+1 - app/lib/widget/TSmallCard.php
+
+Uso
+$card = new TSmallCard('Titulo', 'Valor' ,'far fa-icone','#333333', 'index.php?class=WelcomeView');
